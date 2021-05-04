@@ -10,3 +10,4 @@ However, the model didn't end up scoring as well on the test set in Kaggle as it
 - Use more regularization methods to combat overfitting on the training data (ex. Cutout or Mixup work well for small datasets)
 - Try using a smaller and simpler model, maybe the depth of the model and # of parameters were limiting generalization
 - Experiement with some preprocessing on the images to help the CNN identify features more easily
+- Use visualization techniques (ex. Grad-CAM) to understand what the NN is learning to help with debugging
