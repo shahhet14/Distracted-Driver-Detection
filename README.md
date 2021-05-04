@@ -6,7 +6,7 @@ I first trained the model for a single epoch on different learning rates and cho
 However, the model didn't end up scoring as well on the test set in Kaggle as it did on the validation set during training. I believe a reason for this could be the size of the training set that was provided. The model was trained on 17939 images and used a validation set of 4485 images. The model did not seem to be overfitting based on the loss and accuracy plots, however, it is possible that the validation data was very similar to the training data. This would also explain why the loss dropped so quickly and why the accuracy on the validations set reached 97% in just one epoch. 
 
 ## Future Considerations
-- Use data augmnetation to create more training examples and make the model to more robust to minor transformations
+- Use data augmnetation to create more training examples and make the model more robust to minor transformations
 - Use more regularization methods to combat overfitting on the training data (ex. Cutout or Mixup work well for small datasets)
 - Try using a smaller and simpler model, maybe the depth of the model and # of parameters were limiting generalization
 - Experiement with some preprocessing on the images to help the CNN identify features more easily
